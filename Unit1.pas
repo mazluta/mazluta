@@ -21,12 +21,14 @@ type
     Layout1: TLayout;
     btnClear: TButton;
     btGo: TButton;
+    BtnClose: TButton;
     procedure FormCreate(Sender: TObject);
     procedure BtnBackClick(Sender: TObject);
     procedure BtnForwardClick(Sender: TObject);
     procedure BtnRefreshClick(Sender: TObject);
     procedure btnClearClick(Sender: TObject);
     procedure btGoClick(Sender: TObject);
+    procedure BtnCloseClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -92,6 +94,11 @@ end;
 procedure TForm1.BtnRefreshClick(Sender: TObject);
 begin
   WebBrowser.Reload;
+end;
+
+procedure TForm1.BtnCloseClick(Sender: TObject);
+begin
+  Application.Terminate;
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);

@@ -52,6 +52,15 @@ object Form1: TForm1
       Size.PlatformDefault = False
       Text = 'URL :'
     end
+    object BtnClose: TButton
+      Align = Right
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'X'
+      OnClick = BtnCloseClick
+    end
   end
   object Layout1: TLayout
     Align = Top
