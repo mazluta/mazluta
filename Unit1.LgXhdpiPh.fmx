@@ -1,0 +1,25 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited LayoutUrl: TLayout
+    Size.Width = 444.000000000000000000
+    inherited edURL: TEdit
+      Size.Width = 364.000000000000000000
+    end
+  end
+  inherited LayoutBrowser: TLayout
+    Size.Width = 444.000000000000000000
+    Size.Height = 531.000000000000000000
+    inherited WebBrowser: TWebBrowser
+      Size.Width = 444.000000000000000000
+      Size.Height = 531.000000000000000000
+    end
+  end
+  inherited LayoutTop: TLayout
+    Size.Width = 450.000000000000000000
+  end
+  inherited Layout1: TLayout
+    Size.Width = 450.000000000000000000
+  end
+end
