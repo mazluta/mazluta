@@ -29,6 +29,7 @@ type
     procedure btnClearClick(Sender: TObject);
     procedure btGoClick(Sender: TObject);
     procedure BtnCloseClick(Sender: TObject);
+    procedure WebBrowserDidFinishLoad(ASender: TObject);
   private
     { Private declarations }
   public
@@ -101,12 +102,18 @@ begin
   Application.Terminate;
 end;
 
+procedure TForm1.WebBrowserDidFinishLoad(ASender: TObject);
+begin
+  edURL.Text := WebBrowser.URL;
+end;
+
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   // FIX: removed WebBrowser.CleanupInstance — that method destroys managed fields
   // of a live object (strings/interfaces/dynamic arrays), corrupting TWebBrowser
   // internals immediately and causing "exception class 10" on Android.
   edURL.Text := '';
+  WebBrowser.OnDidFinishLoad := WebBrowserDidFinishLoad;
 end;
 
 end.
