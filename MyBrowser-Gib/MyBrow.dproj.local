@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/03/14 20:44:51.000.727,=C:\Users\mazluta\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/03/15 01:26:36.000.147,=C:\Users\mazluta\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/03/15 01:31:57.000.614,=C:\Users\mazluta\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/03/17 00:41:40.000.920,=C:\Users\mazluta\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/03/17 00:43:08.000.094,C:\work\test1\Unit1.fmx=C:\Users\mazluta\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2026/03/17 00:43:08.000.094,C:\work\test1\Unit1.pas=C:\Users\mazluta\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/03/17 00:43:12.000.721,C:\work\test1\Project1.dproj=C:\Users\mazluta\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/03/17 21:22:06.000.098,C:\work\test1\Unit1.fmx=C:\work\test1\uMainForm.fmx</Transaction>
+    <Transaction>2026/03/17 21:22:06.000.098,C:\work\test1\Unit1.pas=C:\work\test1\uMainForm.pas</Transaction>
+    <Transaction>2026/03/17 21:22:17.000.545,C:\work\test1\Project1.dproj=C:\work\test1\MyBrow.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="ABTCBB5906101361" Android="ABTCBB5906101361"/>
+	</ActiveMobileDevice>
+</BorlandProject>

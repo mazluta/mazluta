@@ -1,0 +1,84 @@
+inherited Form1_iPhone47in: TForm1_iPhone47in
+  ClientHeight = 647
+  ClientWidth = 375
+  DesignerMasterStyle = 3
+  inherited LayoutUrl: TLayout
+    Size.Width = 369.000000000000000000
+    inherited edURL: TEdit
+      Size.Width = 251.000000000000000000
+      Size.Height = 36.000000000000000000
+    end
+    inherited imgGo: TImage
+      MultiResBitmap.Height = 28
+      MultiResBitmap.Width = 28
+      Position.X = 334.000000000000000000
+    end
+  end
+  inherited LayoutBrowser: TLayout
+    Size.Width = 369.000000000000000000
+    Size.Height = 483.000000000000000000
+    inherited WebBrowser: TWebBrowser
+      Size.Width = 369.000000000000000000
+      Size.Height = 483.000000000000000000
+    end
+  end
+  inherited LayoutTop: TLayout
+    Size.Width = 375.000000000000000000
+    inherited Image1: TImage
+      MultiResBitmap.Height = 32
+      MultiResBitmap.Width = 32
+      MultiResBitmap = <
+        item
+          Width = 32
+          Height = 32
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+            F40000000473424954080808087C086488000001B3494441545885ED96CF6AC2
+            301CC7634AFFC8A0AC9D87DC725DD9ADC82E1307A3C73D886E8FA03B4CEA0BCC
+            819EF6023B8B371576D557D86D78712B54A1156CB34B1DA39AA499633BD82FF4
+            9234BFEF273F7EBF2400E4CA75E89278F38EA65D1C4378348BA2B948605B51AC
+            33593E7D5DAFDF0000E447705384C6046342308E3BA6D9CABAF0C134EF09C631
+            C1984C111A67D8E8B61C4DAB24E65F5FD7305CDEBAAE61B8E9758EA65568FF43
+            DAC4471CBFA75357D3F5060BA26B186E4DD71BA96192C4DA296A6A6651342F49
+            9274AEAA97DFC7CBAA5A4510CAFD301C6630078F8B85FBB45C3E0B030000C020
+            08460842B9ACAA551604CDBCE7FBED5BCFBB6379708BA31F864316C475B17845
+            33AF7B5E9317BFC0FB6123DA2E7729AB3910690F5A26F6311702C802216A0E58
+            6DF85712CA00AF0E682DFA2B00598B5014221300ABCF27ABD50BEF9CD80B8065
+            5EF7BC26EF9CE04130013AA6D9BAD1F5ADAA4E573B0BA22449D2200846BC8D6E
+            C956146B73A566BD1177DD8404E3D856148BB686DA86268427E99392D7E775CF
+            6BF67CBF9D1A2E24B184254D101AFDDB836403E1685A8595429A6C45B19287C8
+            8FCD73E53A0C7D02D033F5399C295DC20000000049454E44AE426082}
+          FileName = 'C:\work\MyBrowser\Icons\CloseX_Red32.png'
+        end>
+      Position.X = 320.000000000000000000
+    end
+  end
+  inherited Layout1: TLayout
+    Size.Width = 375.000000000000000000
+    inherited imgClean: TImage
+      MultiResBitmap.Height = 32
+      MultiResBitmap.Width = 32
+      Position.X = 320.000000000000000000
+    end
+    inherited imgYnet: TImage
+      MultiResBitmap.Height = 28
+      MultiResBitmap.Width = 56
+    end
+    inherited imgGoogle: TImage
+      MultiResBitmap.Height = 28
+      MultiResBitmap.Width = 56
+      BitmapMargins.Left = 3.000000000000000000
+      BitmapMargins.Top = 3.000000000000000000
+      BitmapMargins.Right = 3.000000000000000000
+      BitmapMargins.Bottom = 3.000000000000000000
+    end
+    inherited imgClaude: TImage
+      MultiResBitmap.Height = 28
+      MultiResBitmap.Width = 56
+    end
+    inherited imgGemini: TImage
+      MultiResBitmap.Height = 28
+      MultiResBitmap.Width = 56
+    end
+  end
+end

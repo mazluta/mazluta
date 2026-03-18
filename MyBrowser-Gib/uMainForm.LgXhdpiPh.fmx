@@ -1,0 +1,63 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited LayoutUrl: TLayout
+    Size.Width = 444.000000000000000000
+    inherited edURL: TEdit
+      Size.Width = 326.000000000000000000
+      Size.Height = 36.000000000000000000
+    end
+    inherited imgGo: TImage
+      MultiResBitmap.Height = 28
+      MultiResBitmap.Width = 28
+      Position.X = 409.000000000000000000
+    end
+  end
+  inherited LayoutBrowser: TLayout
+    Size.Width = 444.000000000000000000
+    Size.Height = 531.000000000000000000
+    inherited WebBrowser: TWebBrowser
+      Size.Width = 444.000000000000000000
+      Size.Height = 531.000000000000000000
+      OnDidStartLoad = WebBrowserDidStartLoad
+      OnDidFinishLoad = WebBrowserDidFinishLoad
+    end
+  end
+  inherited LayoutTop: TLayout
+    Size.Width = 450.000000000000000000
+    inherited Image1: TImage
+      MultiResBitmap.Height = 28
+      MultiResBitmap.Width = 28
+      Position.X = 395.000000000000000000
+    end
+  end
+  inherited Layout1: TLayout
+    Size.Width = 450.000000000000000000
+    inherited imgClean: TImage
+      MultiResBitmap.Height = 32
+      MultiResBitmap.Width = 32
+      Position.X = 395.000000000000000000
+    end
+    inherited imgYnet: TImage
+      MultiResBitmap.Height = 28
+      MultiResBitmap.Width = 56
+    end
+    inherited imgGoogle: TImage
+      MultiResBitmap.Height = 28
+      MultiResBitmap.Width = 56
+      BitmapMargins.Left = 3.000000000000000000
+      BitmapMargins.Top = 3.000000000000000000
+      BitmapMargins.Right = 3.000000000000000000
+      BitmapMargins.Bottom = 3.000000000000000000
+    end
+    inherited imgClaude: TImage
+      MultiResBitmap.Height = 28
+      MultiResBitmap.Width = 56
+    end
+    inherited imgGemini: TImage
+      MultiResBitmap.Height = 28
+      MultiResBitmap.Width = 56
+    end
+  end
+end
