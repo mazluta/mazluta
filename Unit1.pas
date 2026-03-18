@@ -103,8 +103,22 @@ begin
 end;
 
 procedure TForm1.WebBrowserDidFinishLoad(ASender: TObject);
+const
+  // Redirect window.open() and target="_blank" link clicks to load in the
+  // same WebView instead of being silently dropped (popup fix).
+  PopupFixJS =
+    '(function(){' +
+      'window.open=function(u){if(u)window.location.href=u;return null;};' +
+      'document.addEventListener("click",function(e){' +
+        'var el=e.target;' +
+        'while(el&&el.tagName!=="A")el=el.parentElement;' +
+        'if(el&&el.target&&el.target!=="_self"&&el.href){' +
+          'e.preventDefault();window.location.href=el.href;}' +
+      '},true);' +
+    '})();';
 begin
   edURL.Text := WebBrowser.URL;
+  WebBrowser.EvaluateScript(PopupFixJS);
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);
